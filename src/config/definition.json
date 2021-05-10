@@ -1,0 +1,18 @@
+{
+  "header": {
+    "Content-Type": "application/json"
+  },
+
+  "order": [""],
+
+	"base_url": "",
+
+  "endpoints": {
+      "1" : {
+        "resource" : "",
+        "method" : "GET",
+        "data"   : "",
+        "status_code" : 200
+      }
+    }
+}
