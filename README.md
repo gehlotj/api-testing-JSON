@@ -26,7 +26,7 @@ The api-testing-JSON module is designed to simplify the REST API testing process
 * **token (optional)**
     * Token to authenticate the request
 * **base_url (required)**
-    * Base url of the resources
+    * Base url of the resource
 * **order (optional)**
     * Determines the order in which the endpoints tests has to be run.
 * **endpoints: (required)**
@@ -41,9 +41,9 @@ The api-testing-JSON module is designed to simplify the REST API testing process
     * **status_code (required)**
         * The status code on which the endpoint perform the test
     * **input (optional)**
-        * The following attribute when set to true will trigger the program to save the result retrieved from a GET request. This result data can be used later in the program as input parameters for other endpoint payload requests. For further explanation please refer to example2.json located under src/config. Endpoint id 2 exhibit the functionality described above.
+        * The following attribute when set to true will trigger the program to save the result retrieved from a GET request. This result data can be used later in the program as input parameters for other endpoint payload requests. For further explanation please refer to definition_example2.json located under src/config. Endpoint id 2 exhibit the functionality described above.
     * **update (optional)**
-        * The following attribute will require the valid identifieralong with a list of parameter that needs to be updated from the value stored previously in 'input' section. For further explanation please refer to example2.json located under src/config. Endpoint id 2 exhibit the functionality described above.
+        * The following attribute will require the valid identifier along with a list of parameter that needs to be updated/retrieved from the value stored previously in 'input' section. For further explanation please refer to definition_example2.json located under src/config. Endpoint id 3,4 and 5 exhibit the functionality described above.
 
 ### FAQ:
 
