@@ -31,7 +31,7 @@ class TestEndpoints:
             if index in result:
                 for value in content:
                     if value in data:
-                        data[value] = result[index]['result'][0][value]
+                        data[value] = result[index][0][value]
                     else: log.warning("Unable to find the {0} in {1}".format(value,data))
         return data
 
