@@ -13,6 +13,8 @@ The api-testing-JSON module is designed to simplify the REST API testing process
 ### Installation Instructions :
   - Download the package and add it to your existing project
   - Edit the api-testing-JSON/src/config/definition.json file
+  - Navigate to api-testing-JSON directory by using the command:
+  ```cd api-testing-JSON ```
   - Execute the following command:
   ```pytest . ```
 
